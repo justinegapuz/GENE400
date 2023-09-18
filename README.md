@@ -1,7 +1,10 @@
 # GENE400
 R codes that were used to visualise the expression levels of TRP channels from a single-cell RNA seq dataset
 
-# 1. Install the following packages
+# 1. Install R Studio
+https://posit.co/download/rstudio-desktop/
+
+# 2. Install the following packages
 install.packages(‘ggplot2’)
 
 install.packages(‘Seurat’)
@@ -10,7 +13,7 @@ install.packages(‘cowplot’)
 
 install.packages(‘Matrix’)
 
-# 2. Load the libraries
+# 3. Load the libraries
 library(ggplot2
 
 library(Seurat)
@@ -19,13 +22,13 @@ library(cowplot)
 
 library(Matrix)
 
-# 3. Set the directory
+# 4. Set the directory
 On R, set your working directory to the esmo.combine.rds file location
 The code below will work if your folder is on the desktop and inside the Single_cell_codes_of_B_diegensis folder
 
 Setwd(“~/Desktop/Single_cell_codes_of_B_diegensis”)
 
-# 4. Load the rds data
+# 5. Load the rds data
 Double-click on esmo.combined.rds to open with Rstudio rr you can load with the code below
 
 emso.combined <- readRDS("~/Desktop/Single- cell_codes_of_B_diegensis/emso.combined.rds") 
